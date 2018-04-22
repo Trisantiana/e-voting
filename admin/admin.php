@@ -24,7 +24,7 @@
 
   <link rel="stylesheet" type="text/css" href="../bootstrap/bower_components/Ionicons/css/ionicons.min.css">
 
-  <link rel="stylesheet" href="../bootstrap/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../bootstrap/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css">
 
 
   <link rel="stylesheet" href="../bootstrap/dist/css/AdminLTE.min.css">

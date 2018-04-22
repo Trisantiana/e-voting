@@ -36,8 +36,8 @@ error_reporting(E_ALL);
                     <td><?=$dt["level"]?></td>
 
                     <td>
-                        <a href="?hal=edit-admin&id_admin=<?=$dt['id_admin']?>" class="btn btn-xs btn-primary">Edit</a>
-                        <a href="?hal=sadmin&aksi=hapus&id_admin=<?=$dt['id_admin']?>" class="btn btn-xs btn-danger">Hapus</a>
+                        <a href="?hal=edit-admin&id_admin=<?=$dt['id_admin']?>" class="btn  btn-primary"><i class="fa fa-edit"></i></a>
+                        <a href="?hal=sadmin&aksi=hapus&id_admin=<?=$dt['id_admin']?>" class="btn  btn-danger"><i class="fa fa-trash"></i></a>
                     </td>
                 </tr>
                 <?php
@@ -59,7 +59,7 @@ error_reporting(E_ALL);
 <script>
   $(function () {
     $('#example1').DataTable()
-    $('#example2').DataTable({
+    $('#example1').DataTable({
       'paging'      : true,
       'lengthChange': false,
       'searching'   : false,

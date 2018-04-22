@@ -19,8 +19,8 @@
                 <div class="form-group">
                     <label >Nama</label>
                     <div class="input-group">
-                        <div class="input-group-user">
-                            <i class="fa fa-calendar"></i>
+                        <div class="input-group-addon">
+                            <i class="fa fa-user"></i>
                         </div>
                         <input type="text" class="form-control" name="nama">
                     </div>
@@ -36,7 +36,7 @@
                     <label >Visi</label>
                     <div class="input-group">
                         <div class="input-group-addon">
-                            <i class="fa fa-newspaper"></i>
+                            <i class="fa fa-tags"></i>
                         </div>
                         <textarea name="visi" class="form-control"></textarea>
                     </div>
@@ -46,7 +46,7 @@
                     <label >Misi</label>
                     <div class="input-group">
                         <div class="input-group-addon">
-                            <i class="fa fa-newspaper"></i>
+                            <i class="fa fa-tags"></i>
                         </div>
                         <textarea name="misi" class="form-control"></textarea>
                     </div>

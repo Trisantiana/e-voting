@@ -19,8 +19,8 @@
                     <div class="form-group">
                         <label >Password</label>
                         <div class="input-group">
-                            <div class="input-group-lock">
-                                <i class="fa fa-calendar"></i>
+                            <div class="input-group-addon">
+                                <i class="fa fa-lock"></i>
                             </div>
                             <input type="password" class="form-control" name="pass">
                         </div>
